@@ -1,0 +1,15 @@
+*{
+	margin:0px;
+}
+header,
+nav,
+section,
+footer{
+	background-color:#6f9393;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	box-sizing:border-box;
+	border-radius:2px;
+	text-color:#white;
+}
