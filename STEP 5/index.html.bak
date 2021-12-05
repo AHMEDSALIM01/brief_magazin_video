@@ -1,0 +1,21 @@
+<!Doctype HTML5>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div>
+			<div class="product_1">
+				<img src="product-img1.png" alt="product image 1">
+				<p>Video title 1</p>
+				<p class="RRP">RRP: £18.99</p>
+				<p class="price">Price you pay <span>£9.99</span></p>
+				<p class="saving">Your saving £9</p>
+			</div>
+		
+		</div>
+	</body>
+
+</html>

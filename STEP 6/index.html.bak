@@ -1,0 +1,71 @@
+<!Doctype HTML5>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div class="content">
+			<section>
+				<header>
+					<a href="file:///C:/Users/Youcode/Desktop/brief_magazin_video/STEP%206/index.html" target="_self"><img class="logo" src="logo.png" alt="logo"></a>
+					<ul>
+						<li><a href="#">Videos to rent</a></li>
+						<li><a href="#">Videos to buy</a></li>
+						<li><a href="#">Used DVDs</a></li>
+						<li><a href="#">Offers</a></li>
+					</ul>
+				</header>
+				<nav>
+					<ol>
+						<li><a href="#">Home</a></li>
+						<li>/</li>
+						<li><a href="#">Used DVDs</a></li>
+						<li>/</li>
+						<li><a href="#">Less than £10</a></li>
+					</ol>
+				<nav>
+				<div class="Less_than_10">
+					<h1>Videos less than £10</h1>
+					<p class="p_less">
+						Etiam posuere quam ac quam. Maecenas aliquet accumsan leo.<br>
+						Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est.
+					</p>
+				</div>
+			</section>
+			<div class="product_bloc">
+				<div class="product">
+					<img src="product-img1.png" alt="product image 1">
+					<p class="title">Video title 1</p>
+					<p class="RRP">RRP: £18.99</p>
+					<p class="price">Price you pay <span>£9.99</span></p>
+					<p class="saving">Your saving £9</p>
+				</div>
+				<div class="product">
+					<img src="product-img2.png" alt="product image 2">
+					<p class="title">Video title 1</p>
+					<p class="RRP">RRP: £18.99</p>
+					<p class="price">Price you pay <span>£9.99</span></p>
+					<p class="saving">Your saving £9</p>
+				</div>
+				<div class="product">
+					<img src="product-img3.png" alt="product image 3">
+					<p class="title">Video title 1</p>
+					<p class="RRP">RRP: £18.99</p>
+					<p class="price">Price you pay <span>£9.99</span></p>
+					<p class="saving">Your saving £9</p>
+				</div>
+				<div class="product">
+					<img src="product-img4.png" alt="product image 4">
+					<p class="title">Video title 1</p>
+					<p class="RRP">RRP: £18.99</p>
+					<p class="price">Price you pay <span>£9.99</span></p>
+					<p class="saving">Your saving £9</p>
+				</div>
+			
+			</div>
+		</div>
+	</body>
+
+</html>
