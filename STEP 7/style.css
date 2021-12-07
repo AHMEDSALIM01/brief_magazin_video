@@ -1,0 +1,175 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.content{
+	margin:10px;
+}
+
+section{
+	margin:0px;
+	box-sizing:border-box;
+	display:inline-block;
+}
+
+.logo img{
+	
+	width:200px;
+	height:40px;
+	margin:10px;
+	border-radius:15px;
+}
+
+.logo img:hover{
+	filter: drop-shadow(10px 10px 10px white) invert(90%);
+	transition: all .5s ease;
+}
+
+.logo{
+	text-align:center;
+}
+
+header{
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	padding:0 10px;
+}
+
+.ull{
+	box-shadow: 1px 2px 2px 0px black;
+	align-items:center;
+}
+
+ul{
+	width:100%;
+	list-style-type:none;
+	display:grid;
+	grid-auto-flow:column;
+	font-weight:bold;
+	font-size:smaller-larger;
+}
+ol{
+	margin-top:20px;
+	margin-bottom:20px;
+	list-style-type:none;
+	display:flex;
+	gap:10px;
+	font-size:smaller-larger;
+}
+
+.liste1{
+	border:1.2px solid black;
+	padding:5px;
+
+}
+
+.liste1:hover{
+	box-shadow:0px 0px 5px 5px rgba(0,0,0,.1);
+	transition: all .5s ease;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	margin-bottom:10px;
+	font-size:larger;
+}
+
+.p_less{
+	margin-bottom:16px;
+	font-size:smaller-larger;
+}
+
+.product_bloc{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items:center;
+	gap:16px;
+	margin-top:10px;
+}
+
+.product {
+	width:100%;
+	max-width:280px;
+  padding:10px;
+  border:2px solid black;
+  box-sizing:border-box;
+  display:inline-block;
+}
+
+.product:hover{
+	box-shadow:0px 0px 5px 5px rgba(0,0,0,.1);
+	transition: all .5s ease;
+}
+
+img{
+	width:100%;
+}
+
+.title{
+	padding-bottom:7px;
+	padding-top:30px;
+	font-weight:bold;
+}
+
+.RRP {
+	color:#8d8d8d;
+	padding-bottom:3px;
+	padding-top:7px;
+}
+
+.price{
+	padding-bottom:3px;
+	font-size:10px;
+}
+
+span{
+	text-decoration:underline;
+	font-size:smaller, larger;
+	font-weight:bold;
+}
+
+.saving{
+	color:#84b37e;
+}
+
+@media print{
+  header{
+	  display: none;
+}
+	body{
+		margin:8px;
+	}
+	ol{
+		display:none;
+	}
+}
+
+@media  only screen and (min-width: 580px) {
+  header{
+	margin:10px auto;  
+	align-items:center;
+	flex-direction: row;
+}
+	
+	.logo img{
+		width:100px;
+		margin:10px;
+	}
+	h1{
+	margin-bottom:10px;
+	font-size:29px;
+}
+	
+}

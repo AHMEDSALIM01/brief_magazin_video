@@ -22,7 +22,7 @@ header{
 }
 
 ul{
-	margin-left:20px;
+	margin-left:30px;
 	list-style-type:none;
 	display:flex;
 	gap:1rem;
@@ -97,3 +97,14 @@ span{
 .saving{
 	color:#84b37e;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+	width:100%;
+  }
+  @media only screen and (max-width: 200px) {
+  header {
+    background-color: lightblue;
+	width:100%;
+  }
